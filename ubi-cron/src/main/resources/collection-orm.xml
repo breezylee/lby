@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collections>
+	<collection name="obd_immediate" class="com.yame.ubi.model.ObdImmediate">
+		<!-- Primary key -->
+		<primary-key>
+			<key>id</key>
+			<key>terminalId</key>
+		</primary-key>
+		<!-- PO key -->
+		<key-map>
+			<key db-key="_id" model-key="id"></key>
+			<key db-key="sid" model-key="sessionId"></key>
+			<key db-key="tid" model-key="terminalId"></key>
+			<key db-key="a" model-key="enginTemplate"></key>
+			<key db-key="b" model-key="createTime"></key>
+			<key db-key="c" model-key="status"></key>
+		</key-map>
+	</collection>
+</collections>
